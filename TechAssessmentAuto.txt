@@ -20,4 +20,4 @@ Automation:
 17. Click on confirm button and verify the toaster message. 
 18. It will redirect you to the Find Patient Record menu where verify the deleted patient should not be listed in the table using search options.
 Please use the framework with which you are familiar that should have log functionality and screenshots for all the testcases. In case if you are facing any problems on accessing the application please let us know. 
- 
+ Thank you
