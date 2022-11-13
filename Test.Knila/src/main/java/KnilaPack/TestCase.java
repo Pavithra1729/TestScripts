@@ -58,9 +58,9 @@ public class TestCase extends CommonFunctions{
 
 		TakesScreenshot screenshot= (TakesScreenshot) driver; 
 		File SourceFile =screenshot.getScreenshotAs(OutputType.FILE); 
-		File DestinationFile = new File(".\\LoginPage.png");
+		File DestinationFile = new File(".\\Screenshots\\LoginPage.png");
 		FileHandler.copy(SourceFile, DestinationFile);
-		Test.addScreenCaptureFromPath(".\\LoginPage.png"); 
+		Test.addScreenCaptureFromPath(".\\Screenshots\\LoginPage.png"); 
 
 	}
 
@@ -164,9 +164,9 @@ public class TestCase extends CommonFunctions{
 		
 		TakesScreenshot screenshot= (TakesScreenshot) driver; 
 		File SourceFile =screenshot.getScreenshotAs(OutputType.FILE); 
-		File DestinationFile = new File(".\\ConfirmPage.png");
+		File DestinationFile = new File(".\\Screenshots\\ConfirmPage.png");
 		FileHandler.copy(SourceFile, DestinationFile);
-		Test.addScreenCaptureFromPath(".\\ConfirmPage.png"); 
+		Test.addScreenCaptureFromPath(".\\Screenshots\\ConfirmPage.png"); 
 
 		
 
@@ -246,9 +246,9 @@ public class TestCase extends CommonFunctions{
 
 		TakesScreenshot screenshot= (TakesScreenshot) driver; 
 		File SourceFile =screenshot.getScreenshotAs(OutputType.FILE); 
-		File DestinationFile = new File(".\\StartVisitPage.png");
+		File DestinationFile = new File(".\\Screenshots\\StartVisitPage.png");
 		FileHandler.copy(SourceFile, DestinationFile);
-		Test.addScreenCaptureFromPath(".\\StartVisitPage.png"); 
+		Test.addScreenCaptureFromPath(".\\Screenshots\\StartVisitPage.png"); 
 		
 		Test.log(Status.PASS,"Successfully patient recent visit has added");
 
@@ -269,7 +269,7 @@ public class TestCase extends CommonFunctions{
 				PatientDetailsPageObjects.RecentVisit;
 		String RecentDate = RecentVisit.getText();
 
-		Assert.assertEquals("13.Nov.2022", RecentDate,"Recent Visit has one entry for the current date");
+		Assert.assertEquals("14.Nov.2022", RecentDate,"Recent Visit has one entry for the current date");
 
 		if((PatientDetailsPageObjects.AttachmentsTag).isDisplayed())
 		{
@@ -292,9 +292,13 @@ public class TestCase extends CommonFunctions{
 		PatientDetailsPageObjects.EndVisitYes.click();
 
 		System.out.println("Yes Clicked");
+		
+		robot.delay(1000);
 
 		PatientDetailsPageObjects.DeletePatient.click();
-
+		
+		robot.delay(1000);
+		
 		PatientDetailsPageObjects.DeleteReason.sendKeys("Duplicate");
 
 		robot.delay(2000);

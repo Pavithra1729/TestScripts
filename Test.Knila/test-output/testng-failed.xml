@@ -5,6 +5,7 @@
     <classes>
       <class name="KnilaPack.TestCase">
         <methods>
+          <include name="PatientRecordSearch"/>
           <include name="PatientDetails"/>
           <include name="Browserclose"/>
           <include name="BrowserLaunch"/>
