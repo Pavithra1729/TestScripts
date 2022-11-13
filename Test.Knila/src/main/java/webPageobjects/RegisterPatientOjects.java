@@ -17,11 +17,17 @@ public class RegisterPatientOjects {
 	@FindBy (id="next-button")
 	public static WebElement NextButton;
 
+	@FindBy(id="gender-field")
+	public static WebElement Gender; 
+	
 	@FindBy (id="next-button")
 	public static WebElement NextButton1;
 
 	@FindBy (id="birthdateDay-field")
 	public static WebElement Birth;
+	
+	@FindBy (id="birthdateMonth-field")
+	public static WebElement Month;
 
 	@FindBy (id="birthdateYear-field")
 	public static WebElement BirthYear;
@@ -50,11 +56,14 @@ public class RegisterPatientOjects {
 	@FindBy (id="next-button")
 	public static WebElement NextButton3;
 
-	@FindBy (id="phoneNumber")
+	@FindBy (name="phoneNumber")
 	public static WebElement PhoneNo;
 
 	@FindBy (id="next-button")
 	public static WebElement NextButton4;
+	
+	@FindBy (id="relationship_type")
+	public static WebElement RelationType;
 
 	@FindBy (id="next-button")
 	public static WebElement NextButton5;

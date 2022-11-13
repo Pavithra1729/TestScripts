@@ -19,4 +19,10 @@ public class StartVisitObjects {
 	
 	@FindBy(xpath="//textarea[@placeholder='Enter a caption']")
 	public static WebElement Caption;
+	
+	@FindBy (xpath="//button[text()='Clear forms']//preceding-sibling::button")
+	public static WebElement UploadFile;
+	
+	@FindBy (xpath="//i[@class='icon-chevron-right link']/following-sibling::a")
+	public static WebElement PDetails;
 }

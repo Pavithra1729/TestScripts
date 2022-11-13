@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPageObjects {
 	 
-	@FindBy(id = "username")
+	  @FindBy(id = "username")
 	  public static WebElement UserName; 
 
 	  @FindBy(id="password")
@@ -15,6 +15,9 @@ public class LoginPageObjects {
 	  public static WebElement Location; 
 	  
 	  @FindBy(id="loginButton")
-	  public static WebElement LoginButton; 
+	  public static WebElement LoginButton;
+	  
+	  @FindBy(xpath="//h4")
+	  public static WebElement Logged;
 	  
 }

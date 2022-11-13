@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KnilaPack.HardCodedTesting">
+      <class name="KnilaPack.TestCase">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="LoginTestCase"/>
+          <include name="PatientDetails"/>
+          <include name="Browserclose"/>
+          <include name="BrowserLaunch"/>
         </methods>
-      </class> <!-- KnilaPack.HardCodedTesting -->
+      </class> <!-- KnilaPack.TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
