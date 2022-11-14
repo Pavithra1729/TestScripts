@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-14T14:34:01 IST" name="Suite" finished-at="2022-11-14T14:34:52 IST" duration-ms="51153">
+    <groups>
+    </groups>
+    <test started-at="2022-11-14T14:34:01 IST" name="Test" finished-at="2022-11-14T14:34:52 IST" duration-ms="51153">
+      <class name="KnilaPack.TestCase">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:33:50 IST" name="BrowserLaunch" finished-at="2022-11-14T14:34:01 IST" duration-ms="10413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="LoginTestCase()[pri:0, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:01 IST" name="LoginTestCase" finished-at="2022-11-14T14:34:06 IST" duration-ms="5071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method signature="RegisterTestCase()[pri:1, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:06 IST" name="RegisterTestCase" finished-at="2022-11-14T14:34:19 IST" duration-ms="13162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTestCase -->
+        <test-method signature="StartVisitTestCase()[pri:2, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:19 IST" name="StartVisitTestCase" finished-at="2022-11-14T14:34:39 IST" duration-ms="20255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartVisitTestCase -->
+        <test-method signature="PatientDetails()[pri:3, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:39 IST" name="PatientDetails" finished-at="2022-11-14T14:34:48 IST" duration-ms="8713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatientDetails -->
+        <test-method signature="PatientRecordSearch()[pri:4, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:48 IST" name="PatientRecordSearch" finished-at="2022-11-14T14:34:52 IST" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatientRecordSearch -->
+        <test-method is-config="true" signature="Browserclose()[pri:0, instance:KnilaPack.TestCase@26d9b808]" started-at="2022-11-14T14:34:52 IST" name="Browserclose" finished-at="2022-11-14T14:34:56 IST" duration-ms="4039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserclose -->
+      </class> <!-- KnilaPack.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
